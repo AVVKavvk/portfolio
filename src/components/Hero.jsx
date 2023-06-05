@@ -21,14 +21,14 @@ const Hero = () => {
    className="text-[#915eff] text-3xl ">Founder </span> of Notes Website of IIIT Pune </p>
 </div>
       </div>
-<div className={`relative hidden sm:block w-full h-screen mx-auto`}>
+<div className={`relative hidden cursor-pointer sm:block w-full h-screen mx-auto`}>
 
 
       <ComputersCanvas />
 </div>
-<div className={`relative sm:hidden pt-[50px]  w-full h-screen mx-auto`}>
+<div className={`relative sm:hidden pt-[150px]  w-full h-screen mx-auto`}>
 
-<div class="w-full px-4 h-full absolute flex justify-center mx-auto  items-center  ">
+<div class="w-full px-4 h-[100%]   absolute flex justify-center mx-auto  items-center  ">
 <img src={img2} alt="" />
       
 </div>

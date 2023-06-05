@@ -44,6 +44,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "skills",
+    title: "skills",
+  },
+  {
+    id: "activity",
+    title: "activity",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -175,12 +183,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This is a full stack notes Website,which support Authentication.",
+      "None use of any online source API for Authentication.",
+      "This website help  students by provided them Notes,Labs along with PYQ.",
+      "130+ current users.",
     ],
     link: "https://vipinnotes.onrender.com/#/",
+    link1:"https://github.com/AVVKavvk/notesclient"
   },
   {
     title: "RazorPay Clone",
@@ -190,11 +199,12 @@ const experiences = [
     date: "March 2023 - March 2023",
     link: "https://vipin-razorpay.netlify.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This website modify the frontend of Razorpay by implmenting some future scope API.",
+      "This website uses the Crypto Currency Converter API.",
+      "Implementing responsive design using Tailwind CSS.",
+      "4th Semester Minor Project.",
     ],
+    link1:"https://github.com/AVVKavvk/Razorpay"
   },
   {
     title: "DisCord Clone",
@@ -204,11 +214,12 @@ const experiences = [
     date: "Feb 2023 - March 2023",
     link: "https://discord-vipin.netlify.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This website is fronend of Discord.",
+      "First clone of any website.",
+      "Implementing responsive design using Tailwind CSS.",
+      
     ],
+    link1: "https://github.com/AVVKavvk/vipindiscord"
   },
 
   {
@@ -219,11 +230,12 @@ const experiences = [
     date: "Feb 2023 - Feb 2023",
     link: "https://vipinpage.netlify.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This is my own webpage.",
+      "Style without Tailwind CSS,now.",
+      "Uses of React Route.",
+      "using external gallery animation.",
     ],
+    link1:"https://github.com/AVVKavvk/vipinPage"
   },
   {
     title: "Ecommerce FrontEnd ",
@@ -233,11 +245,12 @@ const experiences = [
     date: "Jan 2023 - Feb 2023",
     link: "https://vipin-ecommerce-like.netlify.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This is a front end of my futuristic Ecommerce website.",
+      "Created cart of ecommerce website.",
+      "To store the price of items, it use React Redux.",
+      "By using external API , it shows items image.",
     ],
+    link1:"https://github.com/AVVKavvk/ecommerceCart"
   },
   {
     title: "Quote Reader",
@@ -247,25 +260,28 @@ const experiences = [
     date: "Dec 2022 - Jan 2023",
     link: "https://vipin-quotes.netlify.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Read Quotes of famous Persons.",
+      "Do bookmark your favorite Quotes.",
+      "Use of gradient background.",
+      "Tag your favorite Person's Quote.",
     ],
+    link1:"https://github.com/AVVKavvk/Quote-Reader"
   },
   {
     title: "Crypto Currency Exchange API",
     skills: "ReactJs",
     icon:coin,
+    
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Dec 2022",
     link: "https://vipincoinconvertor.netlify.app/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Cryptocurrency exchange rate into another cryptocurrency.",
+      "Use of open source API for exchange rate.",
+      "Use of useState and useRef.",
+      "use of Ant Design Form.",
     ],
+    link1:"https://github.com/AVVKavvk/currencyConvertor"
   },
 ];
 

@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-
+import { github,arrow } from "../assets";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../style";
@@ -59,6 +59,12 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+<ul class="flex flex-wrap flow-row space-x-6 justify-between mt-3 items-center w-[90%] mx-auto ">
+  <a href={experience.link1} target="_blank" class=" hover:scale-125  transition-all duration-500" ><li> <img src={github} alt="github"  class=" w-10 h-10 rounded-full "/>   </li></a>   
+  <a href={experience.link} target="_blank" class=" hover:scale-125 transition-all duration-500"><li>   <img src={arrow} alt="github"  class=" w-10 h-10 rounded-full "/>  </li></a>   
+  
+</ul>
+      
     </VerticalTimelineElement>
   );
 };

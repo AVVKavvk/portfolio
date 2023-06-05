@@ -16,21 +16,24 @@ function App() {
       </div>
       <div id="about"><About/></div>
       <div id="work"><Experience/></div>      
-   
-      <Tech/>
+   <div id="skills" >
+
       
-   {/* <div class=" hidden lg:block">
-<Tech/>d
-   </div> */}
+   <div  class=" hidden lg:block">
+<Tech/>
+   </div>
     
 
-{/* <div class=" flex flex-wrap flex-col lg:hidden">
+<div class=" flex flex-wrap flex-col lg:hidden">
 
 <Tech1/>
 <Tech2/>
-</div> */}
+</div>
+   </div>
 <Feedbacks/>
-<Connect/>
+
+<div id="activity"> <Connect/></div>
+
 <div className="relative z-0">
 <div  id="contact"><Contact/></div>
 <StarsCanvas/>

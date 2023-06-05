@@ -7,7 +7,7 @@ import {SectionWrapper} from '../hoc'
 const ServiceCard=({index,title,icon,link})=>{
   return (
 
-<Tilt className="xs:w-[170px] w-full">
+<Tilt className="xs:w-[170px] w-full mx-auto max-w-[250px] sm:max-w-[300px]">
 
   <a href={link} target="_blank">
 

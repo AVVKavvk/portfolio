@@ -8,7 +8,7 @@ import { testimonials } from '../constants';
 const FeedBackCard=({index,testimonial,Name,designation,company,image})=>(
  <motion.div 
  variants={fadeIn("","spring",index*0.5,0.75)}
- class="bg-black-200 p-10 rounded-3xl xs:w-[320px] max-w-full "
+ class="bg-black-200 p-10 rounded-3xl xs:w-[320px] mb-4  max-w-full "
  >
 <p class="text-white font-black text-[48px]  ">"</p>
 <div class="mt-1 ">
