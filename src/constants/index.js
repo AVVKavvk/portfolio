@@ -185,7 +185,7 @@ const experiences = [
     points: [
       "This is a full stack notes Website,which support Authentication.",
       "None use of any online source API for Authentication.",
-      "This website help  students by provided them Notes,Labs along with PYQ.",
+      "This website helps  students by providing them Notes,Labs along with PYQ.",
       "130+ current users.",
     ],
     link: "https://vipinnotes.onrender.com/#/",
