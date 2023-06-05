@@ -28,7 +28,7 @@ const Tech = () => {
   </div>
 ))}
     </div>
-    <div class="text-center text-secondary mt-6  ">This is 3D Balls, you can rotate it.</div>
+    <div class="text-center text-secondary mt-6  ">These are 3D Balls, you can rotate it.</div>
 </>
   )
 }

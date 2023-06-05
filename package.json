@@ -8,12 +8,13 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start":"App.jsx  npm run dev"
+    "start": "App.jsx  npm run dev"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.71.0",
     "@react-three/fiber": "^8.13.0",
+    "dotenv": "^16.1.4",
     "framer-motion": "^10.12.16",
     "maath": "^0.6.0",
     "react": "^18.2.0",

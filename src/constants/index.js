@@ -11,6 +11,7 @@ import {
   nodejs,
   mongodb,
   git,
+  creator,
   java,python,
   // carrent,
   // jobit,
@@ -30,6 +31,7 @@ import {
   linkedIn,
   cf,
   gfg,
+  express
 } from "../assets";
 
 export const navLinks = [
@@ -49,7 +51,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FrontEnd Developer",
     icon: web,
   },
   {
@@ -57,8 +59,12 @@ const services = [
     icon: API,
   },
   {
-    title: "Backend Developer",
+    title: "BackEnd Developer",
     icon: backend,
+  },
+  {
+    title: "MERN Developer",
+    icon: creator,
   },
 ];
 
@@ -97,6 +103,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "ExpressJs",
+    icon: express,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -113,6 +123,48 @@ const technologies = [
     icon: python,
   },
  
+];
+const technologies1 = [
+  
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  
+ 
+];
+const technologies2 = [
+  
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "ExpressJs",
+    icon: express,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  
 ];
 
 const experiences = [
@@ -343,4 +395,4 @@ const activities = [
   },
 ];
 
-export { services, technologies, experiences, testimonials ,activities};
+export { services, technologies, technologies1, technologies2, experiences, testimonials ,activities};

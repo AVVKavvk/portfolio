@@ -11,8 +11,8 @@ const [toggle,setToggle]=useState(false);
    <nav class={ ` ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20  bg-primary` }>
   <div class="w-full flex justify-between items-center max-w-7xl mx-auto ">
 
-    <Link
-    to="/"
+    <a
+    href="/"
     class="flex ic gap-2 "
     onClick={()=>{
       setActive("");
@@ -22,7 +22,7 @@ const [toggle,setToggle]=useState(false);
     <img src={logo} alt=""  class="w-12 h-15 object-contain"/>
 
     <p Class="text-white text-[20px] font-bold cursor-pointer ">Vipin Kumawat</p>
-    </Link>
+    </a>
 
     <ul class="list-none hidden sm:flex flex-row gap-10 ">
 
@@ -34,7 +34,7 @@ const [toggle,setToggle]=useState(false);
             active===link.title?"text-white":"text-secondary"
           } hover:text-white text-[20px] font-medium cursor-pointer transition-all duration-200 ` }
         onClick={()=>setActive(link.title)}  >
-            <a href={ `#${link.id}`}>{link.title}</a>
+             <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))
       }

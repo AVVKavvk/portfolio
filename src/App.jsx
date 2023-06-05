@@ -1,12 +1,11 @@
-import { BrowserRouter } from "react-router-dom"
 import {  Navbar,
-  About,Tech, Experience,Hero, Works, Feedbacks, Contact, EarthCanvas,  BallCanvas,  ComputersCanvas,  StarsCanvas} from './components'
+  About,Tech,Tech1,Tech2, Experience,Hero, Works, Feedbacks, Contact, EarthCanvas,  BallCanvas,  ComputersCanvas,  StarsCanvas} from './components'
 import Connect from "./components/Connect";
 function App() {
   
 
   return (
-    <BrowserRouter>
+    <>
 
     <div className="bg-primary z-0 relative">
 
@@ -17,7 +16,19 @@ function App() {
       </div>
       <div id="about"><About/></div>
       <div id="work"><Experience/></div>      
-<Tech/>
+   
+      <Tech/>
+      
+   {/* <div class=" hidden lg:block">
+<Tech/>d
+   </div> */}
+    
+
+{/* <div class=" flex flex-wrap flex-col lg:hidden">
+
+<Tech1/>
+<Tech2/>
+</div> */}
 <Feedbacks/>
 <Connect/>
 <div className="relative z-0">
@@ -26,7 +37,7 @@ function App() {
 </div>
 
     </div>
-    </BrowserRouter>
+    </>
   )
 }
 
