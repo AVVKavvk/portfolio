@@ -45,11 +45,11 @@ export const navLinks = [
   },
   {
     id: "skills",
-    title: "skills",
+    title: "Skills",
   },
   {
     id: "activity",
-    title: "activity",
+    title: "Activity",
   },
   {
     id: "contact",
@@ -183,10 +183,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
-      "This is a full stack notes Website,which support Authentication.",
-      "None use of any online source API for Authentication.",
-      "This website helps  students by providing them Notes,Labs along with PYQ.",
-      "130+ current users.",
+      "This is a full stack notes Website, which supports Authentication.",
+      "No use of any online source API for creating Authentication.",
+      "This website helps  students by providing them with Notes,Labs along with PYQ.",
+      "132+ current users.",
     ],
     link: "https://vipinnotes.onrender.com/#/",
     link1:"https://github.com/AVVKavvk/notesclient"
@@ -199,22 +199,22 @@ const experiences = [
     date: "March 2023 - March 2023",
     link: "https://vipin-razorpay.netlify.app/",
     points: [
-      "This website modify the frontend of Razorpay by implmenting some future scope API.",
-      "This website uses the Crypto Currency Converter API.",
+      "This website modifies the Frontend of Razorpay by implmenting some future scope API.",
+      "This website uses Crypto Currency Converter API.",
       "Implementing responsive design using Tailwind CSS.",
       "4th Semester Minor Project.",
     ],
     link1:"https://github.com/AVVKavvk/Razorpay"
   },
   {
-    title: "DisCord Clone",
+    title: "Discord Clone",
     skills: "ReactJs",
     icon: discord,
     iconBg: "#E6DEDD",
     date: "Feb 2023 - March 2023",
     link: "https://discord-vipin.netlify.app/",
     points: [
-      "This website is fronend of Discord.",
+      "This website is a Frontend of Discord.",
       "First clone of any website.",
       "Implementing responsive design using Tailwind CSS.",
       
@@ -231,24 +231,24 @@ const experiences = [
     link: "https://vipinpage.netlify.app/",
     points: [
       "This is my own webpage.",
-      "Style without Tailwind CSS,now.",
-      "Uses of React Route.",
-      "using external gallery animation.",
+      "Style without Tailwind CSS.",
+      "Uses of React Routes.",
+      "Using external gallery animation.",
     ],
     link1:"https://github.com/AVVKavvk/vipinPage"
   },
   {
-    title: "Ecommerce FrontEnd ",
+    title: "E-Commerce FrontEnd ",
     skills: "ReactJs",
     icon: ecommerce,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Feb 2023",
     link: "https://vipin-ecommerce-like.netlify.app/",
     points: [
-      "This is a front end of my futuristic Ecommerce website.",
-      "Created cart of ecommerce website.",
-      "To store the price of items, it use React Redux.",
-      "By using external API , it shows items image.",
+      "This is a Frontend of my futuristic E-Commerce website.",
+      "Uses Shooping Cart Interface.",
+      "To store the price of items, It uses React Redux.",
+      "By using external API , It shows items images.",
     ],
     link1:"https://github.com/AVVKavvk/ecommerceCart"
   },
@@ -260,10 +260,10 @@ const experiences = [
     date: "Dec 2022 - Jan 2023",
     link: "https://vipin-quotes.netlify.app/",
     points: [
-      "Read Quotes of famous Persons.",
-      "Do bookmark your favorite Quotes.",
+      "Read Quotes written by Famous Persons.",
+      "Bookmarks your favorite Quotes.",
       "Use of gradient background.",
-      "Tag your favorite Person's Quote.",
+      "Tags your favorite Quotes.",
     ],
     link1:"https://github.com/AVVKavvk/Quote-Reader"
   },
@@ -276,10 +276,10 @@ const experiences = [
     date: "Dec 2022 - Dec 2022",
     link: "https://vipincoinconvertor.netlify.app/",
     points: [
-      "Cryptocurrency exchange rate into another cryptocurrency.",
+      "Works as a Cryptocurrency Convertor.",
       "Use of open source API for exchange rate.",
       "Use of useState and useRef.",
-      "use of Ant Design Form.",
+      "Use of Ant Design Form.",
     ],
     link1:"https://github.com/AVVKavvk/currencyConvertor"
   },
@@ -297,7 +297,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Vipin create Notes website, our stress decreased by 50%. We can't thank him enough!",
+      `After Vipin created the "Notes Website", Our stress decreased by 50%. We can't thank him enough!`,
     Name: "Vivek Bunker",
     designation: "Student",
     company: "IIIT Pune",
@@ -305,7 +305,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was hard to make a website as beautiful as Vipin Does.",
+      "I thought it was hard to make a website as beautiful as Vipin does.",
     Name: "Srijan Raha",
     designation: "Student",
     company: "IIIT Pune",

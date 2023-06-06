@@ -49,7 +49,7 @@ const About = () => {
 
     className="mt-4 text-justify px-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
     >
-      I'm a skilled FullStack Developer with Highly experience in frameworks like React, Node.js, Express.js, Redux, and Three.js, Tailwind CSS, Bootstrap, and many more. I'm a quick learner and collaborate closely with my friends to create efficient, scalable, and user-friendly solutions that slove real-world problems. Let's work together to bring your ideas to life.
+      I'm a skilled FullStack Developer highly experienced in frameworks like React.Js, Node.js, Express.js, Redux, Three.js, Tailwind CSS, Bootstrap, and many more. I'm a quick learner and collaborate closely with my friends to create more efficient, scalable, and user-friendly solutions to slove real-world problems. Let's work together to bring your ideas to life.
     </motion.p>
 
     <div className="mt-20 px-2 flex flex-wrap gap-10">
