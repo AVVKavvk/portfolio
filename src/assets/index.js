@@ -30,7 +30,7 @@ import v from "./v.svg";
 import discord from "./discord.svg";
 import avatar from "./avatar.png";
 import insta from "./insta.png";
-import leetcode from "./leetcode.png";
+import leetcode from "./leetcode.jpg";
 import linkedIn from "./linkedIn.png";
 import cf from "./cf.png";
 import gfg from "./gfg.svg";
