@@ -9,12 +9,18 @@ function App() {
 
     <div className="bg-primary z-0 relative">
 
-      <div className="bg-cover bg-no-repeat bg-hero-pattern bg-center">
+      <div className="bg-cover hidden md:block bg-no-repeat bg-hero-pattern bg-center">
        <Navbar/>
         <Hero/>
 
       <div id="about"><About/></div>
       </div>
+      <div className="bg-cover md:hidden bg-no-repeat bg-hero-pattern bg-center">
+       <Navbar/>
+        <Hero/>
+
+      </div>
+      <div id="about" class="md:hidden"><About/></div>
       <div id="work"><Experience/></div>      
    <div id="skills" >
 
