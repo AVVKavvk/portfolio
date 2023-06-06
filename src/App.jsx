@@ -1,6 +1,7 @@
 import {  Navbar,
   About,Tech,Tech1,Tech2, Experience,Hero, Works, Feedbacks, Contact, EarthCanvas,  BallCanvas,  ComputersCanvas,  StarsCanvas} from './components'
 import Connect from "./components/Connect";
+import Contact1 from './components/Contact1';
 function App() {
   
 
@@ -40,8 +41,9 @@ function App() {
 
 <div id="activity"> <Connect/></div>
 
-<div className="relative z-0">
-<div  id="contact"><Contact/></div>
+<div  id="contact" className="relative z-0">
+<div class="md:hidden"><Contact/></div>
+<div class="hidden md:block"  ><Contact1/></div>
 <StarsCanvas/>
 </div>
 

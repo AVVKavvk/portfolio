@@ -26,10 +26,10 @@ const Hero = () => {
 
       <ComputersCanvas />
 </div>
-<div className={`relative sm:hidden pt-[150px]  w-full h-screen mx-auto`}>
+<div className={`relative sm:hidden pt-[80px]  w-full h-screen mx-auto`}>
 
 <div class="w-full px-4 h-[100%]   absolute flex justify-center mx-auto  items-center  ">
-<img src={img2} alt="" />
+<img src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e" alt="" />
       
 </div>
 </div>
