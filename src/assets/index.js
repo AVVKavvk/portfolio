@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import arrow from './arrow.png'
+import arrow from "./arrow.png";
 import css from "./tech/css.svg";
 
 import git from "./tech/git.svg";
@@ -35,10 +35,11 @@ import linkedIn from "./linkedIn.png";
 import cf from "./cf.png";
 import gfg from "./gfg.svg";
 import express from "./tech/expressjs.svg";
-
+import academify from "./academify.jpg";
 export {
   arrow,
   insta,
+  academify,
   leetcode,
   linkedIn,
   cf,
@@ -71,5 +72,5 @@ export {
   ecommerce,
   coin,
   avatar,
-  express
+  express,
 };

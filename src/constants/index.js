@@ -12,7 +12,8 @@ import {
   mongodb,
   git,
   creator,
-  java,python,
+  java,
+  python,
   // carrent,
   // jobit,
   // tripguide,
@@ -31,7 +32,8 @@ import {
   linkedIn,
   cf,
   gfg,
-  express
+  academify,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -89,7 +91,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  
+
   {
     name: "React JS",
     icon: reactjs,
@@ -130,15 +132,13 @@ const technologies = [
     name: "python",
     icon: python,
   },
- 
 ];
 const technologies1 = [
-  
   {
     name: "JavaScript",
     icon: javascript,
   },
-  
+
   {
     name: "React JS",
     icon: reactjs,
@@ -151,11 +151,8 @@ const technologies1 = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  
- 
 ];
 const technologies2 = [
-  
   {
     name: "Node JS",
     icon: nodejs,
@@ -172,24 +169,42 @@ const technologies2 = [
     name: "Three JS",
     icon: threejs,
   },
-  
 ];
 
 const experiences = [
   {
-    title: "Notes Website of IIIT Pune",
+    title: "VipinNotes",
     skills: "MERN Stack",
     icon: webLogo,
     iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
-      "This is a full stack notes Website, which supports Authentication.",
-      "No use of any online source API for creating Authentication.",
-      "This website helps  students by providing them with Notes,Labs along with PYQ.",
-      "132+ current users.",
+      " Academic Support: Skilled in creating study materials and lab assignments tailored to various subjects and courses,facilitating academic success for students.",
+      " Placement Assistance: Experienced in connecting students with placement opportunities through alumni networks,providing resume building support for career advancement.",
+      " Coding Resources: Proficient in providing coding resources and support, including developing a Telegram bot for DSA questions and utilizing online platforms.",
+      " Authentication Expertise: Implemented secure authentication methods like Gmail OTP and JWT Tokens, ensuring data protection and secure access to online platforms.",
     ],
     link: "https://vipinnotes.onrender.com/#/",
-    link1:"https://github.com/AVVKavvk/notesclient"
+    link1: "https://github.com/AVVKavvk/NotesClientNew",
+    link2: "https://github.com/AVVKavvk/notesserver",
+  },
+
+  {
+    title: "Academify",
+    skills: "MERN Stack",
+    icon: academify,
+    iconBg: "#E6DEDD",
+    date: "March 2024 -Present",
+    link: "https://academify.onrender.com/#",
+    points: [
+      "Empowering Education, One Click at a Time: Academify - Your Gateway to Seamless Learning Management",
+      "Attendance Management: Efficiently track student attendance, automate recording processes, and generate comprehensive attendance reports for academic monitoring.",
+      "Grading System: Streamline grading processes, input and calculate student grades, and provide transparent performance feedback to promote academic excellence.",
+
+      "Secure Authentication: Implement secure single sign-on (SSO) authentication to ensure safe and seamless access for teachers and students.",
+    ],
+    link1: "https://github.com/kumawatvipin/iiitpAcademicClient",
+    link2: "https://github.com/kumawatvipin/iiitpAcademicServer",
   },
   {
     title: "RazorPay Clone",
@@ -204,7 +219,7 @@ const experiences = [
       "Implementing responsive design using Tailwind CSS.",
       "4th Semester Minor Project.",
     ],
-    link1:"https://github.com/AVVKavvk/Razorpay"
+    link1: "https://github.com/AVVKavvk/Razorpay",
   },
   {
     title: "Discord Clone",
@@ -217,25 +232,8 @@ const experiences = [
       "This website is a Frontend of Discord.",
       "First clone of any website.",
       "Implementing responsive design using Tailwind CSS.",
-      
     ],
-    link1: "https://github.com/AVVKavvk/vipindiscord"
-  },
-
-  {
-    title: "My Own Page",
-    skills: "ReactJs",
-    icon: v,
-    iconBg: "#383E56",
-    date: "Feb 2023 - Feb 2023",
-    link: "https://vipinpage.netlify.app/",
-    points: [
-      "This is my own webpage.",
-      "Style without Tailwind CSS.",
-      "Uses of React Routes.",
-      "Using external gallery animation.",
-    ],
-    link1:"https://github.com/AVVKavvk/vipinPage"
+    link1: "https://github.com/AVVKavvk/vipindiscord",
   },
   {
     title: "E-Commerce FrontEnd ",
@@ -250,12 +248,28 @@ const experiences = [
       "To store the price of items, It uses React Redux.",
       "By using external API , It shows items images.",
     ],
-    link1:"https://github.com/AVVKavvk/ecommerceCart"
+    link1: "https://github.com/AVVKavvk/ecommerceCart",
   },
+  {
+    title: "My Own Page",
+    skills: "ReactJs",
+    icon: v,
+    iconBg: "#383E56",
+    date: "Feb 2023 - Feb 2023",
+    link: "https://vipinpage.netlify.app/",
+    points: [
+      "This is my own webpage.",
+      "Style without Tailwind CSS.",
+      "Uses of React Routes.",
+      "Using external gallery animation.",
+    ],
+    link1: "https://github.com/AVVKavvk/vipinPage",
+  },
+
   {
     title: "Quote Reader",
     skills: "ReactJs",
-    icon:qoute,
+    icon: qoute,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Jan 2023",
     link: "https://vipin-quotes.netlify.app/",
@@ -265,13 +279,13 @@ const experiences = [
       "Use of gradient background.",
       "Tags your favorite Quotes.",
     ],
-    link1:"https://github.com/AVVKavvk/Quote-Reader"
+    link1: "https://github.com/AVVKavvk/Quote-Reader",
   },
   {
     title: "Crypto Currency Exchange API",
     skills: "ReactJs",
-    icon:coin,
-    
+    icon: coin,
+
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Dec 2022",
     link: "https://vipincoinconvertor.netlify.app/",
@@ -281,27 +295,25 @@ const experiences = [
       "Use of useState and useRef.",
       "Use of Ant Design Form.",
     ],
-    link1:"https://github.com/AVVKavvk/currencyConvertor"
+    link1: "https://github.com/AVVKavvk/currencyConvertor",
   },
 ];
 
 const testimonials = [
-  
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Vipin Sir does.",
     Name: "Deepesh Patil",
     designation: "Student",
     company: "IIIT Pune",
-    image: avatar
+    image: avatar,
   },
   {
-    testimonial:
-      `After Vipin created the "Notes Website", Our stress decreased by 50%. We can't thank him enough!`,
+    testimonial: `After Vipin created the "Notes Website", Our stress decreased by 50%. We can't thank him enough!`,
     Name: "Vivek Bunker",
     designation: "Student",
     company: "IIIT Pune",
-    image: avatar
+    image: avatar,
   },
   {
     testimonial:
@@ -309,7 +321,7 @@ const testimonials = [
     Name: "Srijan Raha",
     designation: "Student",
     company: "IIIT Pune",
-    image: avatar
+    image: avatar,
   },
 ];
 
@@ -382,33 +394,41 @@ const activities = [
   {
     title: "LinkedIn",
     icon: linkedIn,
-    link:"https://www.linkedin.com/in/vipin-kumawat-751b9124b/"
+    link: "https://www.linkedin.com/in/vipin-kumawat-751b9124b/",
   },
   {
     title: "Github",
     icon: github,
-    link:"https://github.com/AVVKavvk"
+    link: "https://github.com/AVVKavvk",
   },
   {
     title: "Instagram",
     icon: insta,
-    link:"https://www.instagram.com/k.vip_in/"
+    link: "https://www.instagram.com/k.vip_in/",
   },
   {
     title: "Leetcode",
     icon: leetcode,
-    link:"https://leetcode.com/Avvkvipin/"
+    link: "https://leetcode.com/Avvkvipin/",
   },
   {
     title: "GFG",
     icon: gfg,
-    link: "https://auth.geeksforgeeks.org/user/kumawatv3ik5/"
+    link: "https://auth.geeksforgeeks.org/user/kumawatv3ik5/",
   },
   {
     title: "CodeForces",
     icon: cf,
-    link:"https://codeforces.com/profile/avvk_81"
+    link: "https://codeforces.com/profile/avvk_81",
   },
 ];
 
-export { services, technologies, technologies1, technologies2, experiences, testimonials ,activities};
+export {
+  services,
+  technologies,
+  technologies1,
+  technologies2,
+  experiences,
+  testimonials,
+  activities,
+};

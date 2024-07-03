@@ -37,7 +37,7 @@ function App() {
 <Tech2/>
 </div>
    </div>
-<Feedbacks/>
+{/* <Feedbacks/> */}
 
 <div id="activity"> <Connect/></div>
 

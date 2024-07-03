@@ -17,9 +17,9 @@ const Tech = () => {
         </h2>
       </motion.div>
     <div className="flex flex-row flex-wrap justify-center gap-10">
-      {technologies.map((technology) => (
-        <div className="w-28 h-28"  key={technology.name}>
-          <BallCanvas icon={technology.icon} />
+      {technologies?.map((technology) => (
+        <div className="w-28 h-28"  key={technology?.name}>
+          <BallCanvas icon={technology?.icon} />
         </div>
       ))}
       <div class="text-center text-secondary mt-6  ">These are 3D Balls, you can rotate it.</div>
