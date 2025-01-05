@@ -36,7 +36,17 @@ import cf from "./cf.png";
 import gfg from "./gfg.svg";
 import express from "./tech/expressjs.svg";
 import academify from "./academify.jpg";
+import librohub from "./librohub.png"
+import minikube from "./minikube.svg"
+import kubernetes from "./kubernetes.png"
+import cicd from "./ci-cd.png"
+import docker from "./docker.png"
+
 export {
+  minikube,
+  kubernetes,
+  cicd,
+  docker,
   arrow,
   insta,
   academify,
@@ -73,4 +83,5 @@ export {
   coin,
   avatar,
   express,
+  librohub
 };

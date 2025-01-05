@@ -2,6 +2,7 @@ import {  Navbar,
   About,Tech,Tech1,Tech2, Experience,Hero, Works, Feedbacks, Contact, EarthCanvas,  BallCanvas,  ComputersCanvas,  StarsCanvas} from './components'
 import Connect from "./components/Connect";
 import Contact1 from './components/Contact1';
+import Work from './components/Work';
 function App() {
   
 
@@ -22,7 +23,8 @@ function App() {
 
       </div>
       <div id="about" class="md:hidden"><About/></div>
-      <div id="work"><Experience/></div>      
+      <div id="work"><Work/></div>      
+      <div id="project"><Experience/></div>      
    <div id="skills" >
 
       

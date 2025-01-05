@@ -34,6 +34,11 @@ import {
   gfg,
   academify,
   express,
+  librohub,
+  minikube,
+  kubernetes,
+  cicd,
+  docker
 } from "../assets";
 
 export const navLinks = [
@@ -44,6 +49,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "project",
+    title: "Project",
   },
   {
     id: "skills",
@@ -132,6 +141,22 @@ const technologies = [
     name: "python",
     icon: python,
   },
+  {
+    name: "minikube",
+    icon: minikube,
+  },
+  {
+    name: "kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "ci-cd",
+    icon: cicd,
+  },
 ];
 const technologies1 = [
   {
@@ -188,7 +213,23 @@ const experiences = [
     link1: "https://github.com/AVVKavvk/NotesClientNew",
     link2: "https://github.com/AVVKavvk/notesserver",
   },
-
+  {
+    title: "Librohub",
+    skills: "React, Golang, MongoDB, Tailwind CSS",
+    icon: librohub,
+    iconBg: "#383E56",
+    date: "Nov 2024 - Present",
+    points: [
+      "Library Management: Provides tools for book tracking, assignments, renewals, and penalties to ensure smooth library operations.",
+      "User Management: Manages student and admin accounts, including book borrowing history, penalties, and dues management.",
+      "Real-time Updates: Displays real-time book availability, student assignments, and overdue records to facilitate quick access and updates.",
+      "Efficient Reports: Generates reports on book circulation, student activity, and penalty dues to help admins monitor library usage.",
+      "Secure Access: Implements user authentication and secure data management, ensuring safe access for students and admins."
+    ],
+    link: "https://librohub.onrender.com/",
+    link1: "https://github.com/AVVKavvk/LibraryManagementSystemFrontend",
+    link2: "https://github.com/AVVKavvk/LibraryManagementSystem",
+  },
   {
     title: "Academify",
     skills: "MERN Stack",
@@ -205,6 +246,19 @@ const experiences = [
     ],
     link1: "https://github.com/kumawatvipin/iiitpAcademicClient",
     link2: "https://github.com/kumawatvipin/iiitpAcademicServer",
+  },
+  {
+    title: "VipinNotes CMD Interface",
+    skills: "Golang, Cobra",
+    icon: librohub,
+    iconBg: "#E6DEDD",
+    date: "Nov 2024 -Present",
+    link: "https://vipinnotes.onrender.com/#/",
+    points: [
+      "VipinNotes CLI is a powerful command-line tool for managing notes with administrative functionalities. It supports user management, authentication, and more",
+    ],
+    link1: "https://github.com/AVVKavvk/vipinnotes-admin-exe",
+
   },
   {
     title: "RazorPay Clone",
