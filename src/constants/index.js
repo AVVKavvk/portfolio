@@ -38,7 +38,7 @@ import {
   minikube,
   kubernetes,
   cicd,
-  docker
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -197,22 +197,22 @@ const technologies2 = [
 ];
 
 const experiences = [
-  {
-    title: "VipinNotes",
-    skills: "MERN Stack",
-    icon: webLogo,
-    iconBg: "#383E56",
-    date: "May 2023 - Present",
-    points: [
-      " Academic Support: Skilled in creating study materials and lab assignments tailored to various subjects and courses,facilitating academic success for students.",
-      " Placement Assistance: Experienced in connecting students with placement opportunities through alumni networks,providing resume building support for career advancement.",
-      " Coding Resources: Proficient in providing coding resources and support, including developing a Telegram bot for DSA questions and utilizing online platforms.",
-      " Authentication Expertise: Implemented secure authentication methods like Gmail OTP and JWT Tokens, ensuring data protection and secure access to online platforms.",
-    ],
-    link: "https://vipinnotes.onrender.com/#/",
-    link1: "https://github.com/AVVKavvk/NotesClientNew",
-    link2: "https://github.com/AVVKavvk/notesserver",
-  },
+  // {
+  //   title: "VipinNotes",
+  //   skills: "MERN Stack",
+  //   icon: webLogo,
+  //   iconBg: "#383E56",
+  //   date: "May 2023 - Present",
+  //   points: [
+  //     " Academic Support: Skilled in creating study materials and lab assignments tailored to various subjects and courses,facilitating academic success for students.",
+  //     " Placement Assistance: Experienced in connecting students with placement opportunities through alumni networks,providing resume building support for career advancement.",
+  //     " Coding Resources: Proficient in providing coding resources and support, including developing a Telegram bot for DSA questions and utilizing online platforms.",
+  //     " Authentication Expertise: Implemented secure authentication methods like Gmail OTP and JWT Tokens, ensuring data protection and secure access to online platforms.",
+  //   ],
+  //   link: "https://vipinnotes.onrender.com/#/",
+  //   link1: "https://github.com/AVVKavvk/NotesClientNew",
+  //   link2: "https://github.com/AVVKavvk/notesserver",
+  // },
   {
     title: "Librohub",
     skills: "React, Golang, MongoDB, Tailwind CSS",
@@ -224,7 +224,7 @@ const experiences = [
       "User Management: Manages student and admin accounts, including book borrowing history, penalties, and dues management.",
       "Real-time Updates: Displays real-time book availability, student assignments, and overdue records to facilitate quick access and updates.",
       "Efficient Reports: Generates reports on book circulation, student activity, and penalty dues to help admins monitor library usage.",
-      "Secure Access: Implements user authentication and secure data management, ensuring safe access for students and admins."
+      "Secure Access: Implements user authentication and secure data management, ensuring safe access for students and admins.",
     ],
     link: "https://librohub.onrender.com/",
     link1: "https://github.com/AVVKavvk/LibraryManagementSystemFrontend",
@@ -258,7 +258,6 @@ const experiences = [
       "VipinNotes CLI is a powerful command-line tool for managing notes with administrative functionalities. It supports user management, authentication, and more",
     ],
     link1: "https://github.com/AVVKavvk/vipinnotes-admin-exe",
-
   },
   {
     title: "RazorPay Clone",
@@ -455,11 +454,7 @@ const activities = [
     icon: github,
     link: "https://github.com/AVVKavvk",
   },
-  {
-    title: "Instagram",
-    icon: insta,
-    link: "https://www.instagram.com/k.vip_in/",
-  },
+
   {
     title: "Leetcode",
     icon: leetcode,

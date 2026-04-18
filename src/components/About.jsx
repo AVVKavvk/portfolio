@@ -1,64 +1,100 @@
-import { Tilt } from 'react-tilt'
-import {motion} from 'framer-motion'
-import {styles} from '../style';
-import {services} from'../constants'
-import {fadeIn,textVariant} from '../utils/motion'
-import {SectionWrapper} from '../hoc'
-const ServiceCard=({index,title,icon})=>{
-  return (
+import { motion } from "framer-motion";
+import { styles } from "../style";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
-<Tilt className="xs:w-[170px] w-full">
-<motion.div  variants={fadeIn("right","spring",0.5*index,0.75)}
+const stats = [
+  { value: "50K+", label: "calls/day on voice platform" },
+  { value: "70K+", label: "messages/day on WhatsApp infra" },
+  { value: "~300ms", label: "voice agent latency" },
+  { value: "1,450+", label: "students on VipinNotes" },
+];
 
-className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
-<div 
-options={{
-  max:45,
-  scale:1,
-  speed:450
-}}
-
-className="bg-tertiary w-auto text-center rounded-[20px] py-5 px-12 max-h-[280px] min-h-[200px] flex justify-evenly items-center flex-col ">
-<img src={icon} alt={title} className="w-16 h-16 object-contain " />
-
-<h3>{title}</h3>
-</div>
-</motion.div>
-
-</Tilt>
-  )
-}
-
+const tags = [
+  "React",
+  "TypeScript",
+  "React Native",
+  "Node.js",
+  "Golang",
+  "Python",
+  "Rust",
+  "C#",
+  "MongoDB",
+  "PostgreSQL",
+  "Neo4j",
+  "Redis",
+  "ChromaDB",
+  "AWS",
+  "GCP",
+  "Kubernetes",
+  "Docker",
+  "Kafka",
+  "RabbitMQ",
+  "LangChain",
+  "LangGraph",
+  "OpenAI",
+  "Twilio",
+  "GraphQL",
+];
 
 const About = () => {
-
-
   return (
     <>
-    <motion.div variants={textVariant()} className="mt-16">
-<p className={`${styles.sectionSubText} px-6  sm:mt-16  `}>Introduction</p>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
+      </motion.div>
 
-<h2 className={`${styles.sectionHeadText} px-3 `}>Overview</h2>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
+      >
+        I'm a Full-Stack & Systems Engineer with a strong bias for building at
+        scale — from AI voice platforms handling{" "}
+        <span className="text-white font-medium">50,000+ calls/day</span> to
+        WhatsApp infrastructure delivering{" "}
+        <span className="text-white font-medium">70,000+ messages/day</span>. As
+        a Founding Engineer at{" "}
+        <span className="text-white font-medium">Replaice.ai</span>, I architect
+        systems end-to-end — voice agents, hybrid vector-graph RAG pipelines,
+        and real-time telephony. I also founded{" "}
+        <span className="text-white font-medium">VipinNotes</span>, an academic
+        platform serving 1,450+ students. I care deeply about clean
+        architecture, performance, and shipping things that actually work. Let's
+        build something impactful together.
+      </motion.p>
 
+      {/* Stats */}
+      <motion.div
+        variants={fadeIn("", "", 0.2, 1)}
+        className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4"
+      >
+        {stats.map((s) => (
+          <div key={s.value} className="bg-tertiary rounded-xl p-4">
+            <p className="text-white text-2xl font-medium">{s.value}</p>
+            <p className="text-secondary text-[13px] mt-1">{s.label}</p>
+          </div>
+        ))}
+      </motion.div>
 
-
-    </motion.div>
-    <motion.p
-     variants={fadeIn
-    ("","",0.1,1)}
-
-    className="mt-4 text-justify px-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
-    >
-      I'm a skilled Full-Stack Developer with expertise in building scalable, user-friendly solutions using technologies like React.js, Node.js, Express.js, Redux, Three.js, Tailwind CSS, Bootstrap, MongoDB, MySQL, JavaScript (ES6+), TypeScript, Django, Django REST Framework, Git, JWT, GraphQL, and CI/CD tools. I’m passionate about clean code, software architecture, and building efficient systems. A quick learner and collaborative team player, I work closely with cross-functional teams to solve real-world problems and create innovative solutions. Let’s work together to bring your ideas to life!
-    </motion.p>
-
-    <div className="mt-20 px-2 flex flex-wrap gap-10">
-{
-  services.map((service,index)=>(<ServiceCard key={service.title} index={index} {...service}/>))
-}
-    </div>
+      {/* Tech tags */}
+      <motion.div variants={fadeIn("", "", 0.3, 1)} className="mt-8">
+        <p className="text-secondary text-[12px] uppercase tracking-widest mb-3">
+          Tech Stack
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {tags.map((tag) => (
+            <span
+              key={tag}
+              className="text-secondary text-[13px] px-3 py-1 rounded-full border border-white/10 bg-white/5"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </motion.div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About,"about");
+export default SectionWrapper(About, "about");
